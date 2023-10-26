@@ -8,13 +8,22 @@
     font-size: 1.5rem;
 }
 
+.card-altura {
+    display: grid;
+    grid-template-rows: 35px 180px auto;
+    overflow: auto;
+}
+
+.card-altura a{
+
+}
+
 i {
     transition: 0.3s;
 }
 
 i:hover{
     color: red;
-    font-size: 1.45rem;
 }
 
 .color-nav a { 
