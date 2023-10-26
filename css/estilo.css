@@ -3,9 +3,18 @@
 
 .color-nav {
     background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 10px 0px rgb(138, 138, 138);
+    box-shadow: 0 0 5px 0px rgb(138, 138, 138);
     color: black;
     font-size: 1.5rem;
+}
+
+i {
+    transition: 0.3s;
+}
+
+i:hover{
+    color: red;
+    font-size: 1.45rem;
 }
 
 .color-nav a { 
