@@ -11,6 +11,10 @@
     color: white;
 }
 
+.margen-arriba {
+    margin-top: 100px;
+}
+
 .color-nav {
     background-color: black;
     color: white;
@@ -94,7 +98,8 @@ i:hover{
     right: 20px;
     justify-content: center;
     align-items: center;
-    height: 120px;
+    height: 30%;
+    max-height: 120px;
     display: flex;
     position: absolute;
     color: black;
@@ -142,7 +147,7 @@ h1 {
 h2 {
     font-size: 3rem;
     text-align: center;
-    margin: 20px 0
+    margin: 20px;
 }
 
 .logo {
@@ -180,11 +185,6 @@ h2 {
     height: 50px;
     margin-bottom: 10px;
     width: auto;
-}
-
-#messi p{
-    position: relative;
-    
 }
 
 .welive {
