@@ -79,11 +79,11 @@ i {
     transition: 0.3s;
 }
 
-i:hover{
+i:hover {
     color: red;
 }
 
-.color-nav a { 
+.color-nav a {
     border-bottom: 3px solid transparent;
     color: white;
     transition: 0.1s;
@@ -127,11 +127,11 @@ body {
     color: #333;
 }
 
-.btn-menu{
+.btn-menu {
     background-color: white;
 }
 
-.text-flex { 
+.text-flex {
     display: flex;
     padding: 0;
     justify-content: center;
@@ -167,12 +167,12 @@ h2 {
     text-align: center;
 }
 
-.footer-contactos p{
+.footer-contactos p {
     font-size: 1.5rem;
     color: white;
 }
 
-.footer-contactos a{
+.footer-contactos a {
     display: block;
     color: white;
     text-decoration: none;
@@ -197,4 +197,44 @@ h2 {
 .welive {
     width: 100px;
     height: 100px;
+}
+
+.slider-container { 
+    margin-top: 40px;
+    width: 100%;
+    overflow: hidden;
+    /* Ancho del contenedor */
+}
+
+.slider-inf {
+    display: flex;
+    /* Para que los slides estén en línea */
+    animation: slide 2s linear infinite;
+    /* Duración y repetición de la animación */
+}
+
+.slide-inf {
+    background-image: url(../imagenes/pngwing.com.png);
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    /* Ancho de cada slide */
+    flex: 0 0 300px;
+    /* Evita que los slides se redimensionen */
+    padding: 20px;
+    margin-left: 30px;
+    /* Ajusta el espaciado según tus necesidades */
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(5px);
+        /* Inicio de la animación */
+    }
+
+    100% {
+        transform: translateX(-321px);
+        /* Final de la animación - ajusta según el ancho del contenedor y los slides */
+    }
 }
