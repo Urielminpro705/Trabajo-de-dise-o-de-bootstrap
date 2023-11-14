@@ -18,6 +18,28 @@ main {
 }
 
 #mapa-cont {
-    width: 650px;
+    width: 60%;
     height: 400px;
+}
+
+.negritas {
+    font-weight: bold;
+}
+
+.contactos {
+    list-style: none;
+}
+
+.boton-icon {
+    background-color: transparent;
+    border: none;
+    width: auto;
+    height: auto;
+    padding: 0;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.boton-icon:hover {
+    background-color: transparent;
 }
