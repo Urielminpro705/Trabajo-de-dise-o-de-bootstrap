@@ -1,0 +1,25 @@
+.fondo-multiple-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    background-image: url(../imagenes/logo_blanco.png) , url(../imagenes/kisspng-t-shirt-adidas-originals-trefoil-shoe-sport-model-5b09afcf0d1da4.4234903015273614870537.png), url(../imagenes/colors.jpg);
+    background-position: top 30px right 30px, top 95px center ,center;
+    background-repeat: no-repeat;
+    background-size: 150px , 450px,cover;
+    background-attachment: scroll, fixed ,fixed;
+}
+
+#titulo-servicios {
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+}
+
+.tabla-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 10px;
+}
